@@ -176,4 +176,4 @@ def send_email(to, subject, template, **kwargs):
     msg.html = render_template(template + ".html", **kwargs)
     mail.send(msg)
 
- # 20260809 02:09 p.m / 20260809 2:36 p.m     test
+ # 20260809 09:49 p.m     test
